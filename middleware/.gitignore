@@ -1,0 +1,11 @@
+node_modules/
+.env
+.env.*
+package-lock.json
+venv/
+*.log
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd

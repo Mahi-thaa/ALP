@@ -1,0 +1,84 @@
+.activities-container {
+  padding: 2rem;
+  min-height: 100vh;
+  background: linear-gradient(to right, #ffe0eb, #fff);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.activities-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #b84d75;
+}
+
+.subjects-grid {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.subject-card {
+  background: #fff0f6;
+  border: 2px solid #ffc1d6;
+  padding: 1rem 1.5rem;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 150px;
+  box-shadow: 0 4px 8px rgba(255, 192, 203, 0.3);
+}
+
+.subject-card:hover {
+  background-color: #ffe6ef;
+  transform: scale(1.05);
+}
+
+.subject-card.active {
+  border-color: #e75480;
+  background-color: #ffe6ef;
+}
+
+.icon {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.activities-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.activity-card {
+  background: #fff;
+  border: 2px solid #ffc1d6;
+  padding: 1.2rem 2rem;
+  border-radius: 1rem;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 5px 12px rgba(255, 182, 193, 0.3);
+  text-align: left;
+  transition: 0.3s ease;
+}
+
+.activity-card:hover {
+  transform: translateY(-4px);
+  background-color: #fff5f8;
+}
+
+.activity-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #b84d75;
+}
+
+.activity-description {
+  font-size: 1rem;
+  color: #444;
+}

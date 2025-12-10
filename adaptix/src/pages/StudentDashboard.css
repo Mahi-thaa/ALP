@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comic Neue', 'Segoe UI', sans-serif;
+}
+
+.student-dashboard {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(135deg, #f9d6ff 0%, #b5f0ff 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 20px;
+  box-sizing: border-box;
+}
+
+.logout-btn {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  background: none;
+  color: #444;
+  border: none;
+  font-size: 0.9rem;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.dashboard-heading {
+  font-size: 2.7rem;
+  font-weight: bold;
+  color: #7c3aed;
+  margin-top: 40px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #fff176, 4px 4px 0 #ffb347;
+}
+
+.dashboard-subheading {
+  font-size: 1.3rem;
+  color: #ff6b81;
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.dashboard-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.dashboard-card {
+  background: linear-gradient(135deg, #ffe6fa 0%, #c6f5e9 100%);
+  border-radius: 22px;
+  width: 160px;
+  height: 160px;
+  box-shadow: 0 6px 18px rgba(124, 58, 237, 0.10);
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2.5px solid #f9d6ff;
+}
+
+.dashboard-card:hover {
+  transform: scale(1.07) rotate(-2deg);
+  box-shadow: 0 12px 32px rgba(255, 107, 129, 0.18);
+  border-color: #7c3aed;
+}
+
+.dashboard-card .icon {
+  font-size: 4.5rem;
+  color: #7c3aed;
+  margin-bottom: 12px;
+  filter: drop-shadow(0 2px 6px #ffb34733);
+}
+
+.dashboard-card span {
+  font-size: 1.08rem;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.progress-section {
+  margin-top: auto;
+  text-align: center;
+  padding-bottom: 30px;
+  color: #333;
+  background: linear-gradient(135deg, #e0c3fc 0%, #f9f9ff 100%);
+  padding: 24px 18px;
+  margin-top: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(124, 58, 237, 0.08);
+}
+
+.progress-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+  font-weight: 700;
+  color: #7c3aed;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 20px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  margin: 10px 0;
+  overflow: hidden;
+}
+
+.progress-bar .fill {
+  height: 100%;
+  background: linear-gradient(90deg, #ff6b81 0%, #7c3aed 100%);
+  width: 0;
+  transition: width 0.4s ease-in-out;
+}
+
+.activity-status-list {
+  list-style-type: none;
+  padding: 0;
+  font-size: 16px;
+}
+
+.activity-status-list li {
+  margin: 6px 0;
+}
+
+.emotion-detector-box {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 200px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 8px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.emotion-label {
+  font-size: 14px;
+  margin-top: 6px;
+  text-align: center;
+}
+

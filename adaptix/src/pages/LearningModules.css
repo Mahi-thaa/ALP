@@ -1,0 +1,76 @@
+/* LearningModules.css */
+
+.modules-container {
+  background: linear-gradient(to right, #fce4ec, #ffe0f0); /* soft pink gradient */
+  min-height: 100vh;
+  padding: 30px;
+  font-family: 'Comic Neue', sans-serif;
+}
+
+.modules-title {
+  text-align: center;
+  color: #d63384;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.subjects-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.subject-card {
+  background-color: white;
+  border-radius: 20px;
+  width: 150px;
+  height: 150px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.subject-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.subject-card.active {
+  border: 3px solid #d63384;
+  box-shadow: 0 6px 15px rgba(214, 51, 132, 0.4);
+}
+
+.icon {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.subject-content {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  max-width: 700px;
+  margin: 0 auto;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+.subject-content h2 {
+  text-align: center;
+  color: #d63384;
+  margin-bottom: 15px;
+}
+
+.subject-content ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}

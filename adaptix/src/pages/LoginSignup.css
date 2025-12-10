@@ -1,0 +1,219 @@
+/*
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #a1c4fd, #d1b3ff);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+}
+
+.form-card {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  text-align: center;
+}
+
+.form-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #6c63ff;
+  margin-bottom: 20px;
+}
+
+.toggle-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.toggle-buttons button {
+  background: #eee;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #6c63ff;
+}
+
+.toggle-buttons button.active {
+  background: #6c63ff;
+  color: white;
+}
+
+form input,
+form select {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+form input:focus,
+form select:focus {
+  outline: none;
+  border-color: #6c63ff;
+  box-shadow: 0 0 5px rgba(108, 99, 255, 0.3);
+}
+
+.submit-btn {
+  width: 100%;
+  background-color: #6c63ff;
+  color: white;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0 5px 15px rgba(108, 99, 255, 0.3);
+}
+
+.submit-btn:hover {
+  background-color: #594ae2;
+}
+
+.message {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.message.success {
+  background-color: #e7fff3;
+  color: #3cb371;
+}
+
+.message.error {
+  background-color: #ffe6e6;
+  color: #ff4d4d;
+}*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.login-container {
+  background: linear-gradient(to right top, #a1c4fd, #c2e9fb, #fcb4ff);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.cloud {
+  background: url("https://svgshare.com/i/xiR.svg") no-repeat center center/contain;
+  position: absolute;
+  top: 5%;
+  left: 0;
+  right: 0;
+  height: 100px;
+  opacity: 0.2;
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 400px;
+  z-index: 1;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #6a0dad;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+
+.toggle-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.toggle-buttons button {
+  background: #eee;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  color: #6a0dad;
+}
+
+.toggle-buttons button.active {
+  background: #6a0dad;
+  color: white;
+  box-shadow: 0 3px 10px rgba(106, 13, 173, 0.3);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, select {
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+input:focus, select:focus {
+  border-color: #6a0dad;
+  outline: none;
+  box-shadow: 0 0 5px rgba(106, 13, 173, 0.3);
+}
+
+button[type="submit"] {
+  background: #6a0dad;
+  color: white;
+  border: none;
+  padding: 14px;
+  font-size: 1.1rem;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button[type="submit"]:hover {
+  background: #5a019a;
+  transform: scale(1.02);
+}

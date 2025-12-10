@@ -1,0 +1,160 @@
+/* EnglishMCQ.css 
+.mcq-container {
+  background-color: #ffe4ec;
+  padding: 2rem;
+  max-width: 600px;
+  margin: 3rem auto;
+  border-radius: 1rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  font-family: 'Comic Sans MS', cursive;
+  text-align: center;
+}
+
+.question-section h2 {
+  margin-bottom: 1rem;
+}
+
+.options button {
+  display: block;
+  margin: 0.5rem auto;
+  padding: 0.7rem 1.2rem;
+  border: none;
+  background-color: #f48fb1;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+.options button:hover {
+  background-color: #ec407a;
+}
+
+.score-section {
+  font-size: 1.3rem;
+  color: #4caf50;
+  margin-top: 1rem;
+}
+.student-dashboard {
+  padding: 2rem;
+  font-family: 'Comic Sans MS', cursive;
+  background-color: #fff5f8;
+  min-height: 100vh;
+}
+
+.logout-btn {
+  float: right;
+  padding: 10px 20px;
+  background: #f06292;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.dashboard-heading {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.dashboard-subheading {
+  font-size: 1.2rem;
+  color: #777;
+  margin-bottom: 2rem;
+}
+
+.dashboard-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.dashboard-card {
+  background-color: white;
+  border: 2px solid #f8bbd0;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  width: 180px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+.dashboard-card:hover {
+  background-color: #fce4ec;
+  transform: translateY(-5px);
+}
+
+.icon {
+  font-size: 2rem;
+  color: #f48fb1;
+  margin-bottom: 0.5rem;
+}
+
+.progress-section,
+.messages-section {
+  margin-top: 2rem;
+  background-color: #f48fb1;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  color: #222;
+}
+
+.progress-list {
+  list-style: none;
+  padding-left: 0;
+  font-size: 1.1rem;
+  line-height: 2;
+}
+
+.messages-section p {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 0.8rem;
+  border-radius: 10px;
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+}
+*/
+.mcq-container {
+  background-color: #ffe4ec;
+  padding: 2rem;
+  max-width: 600px;
+  margin: 3rem auto;
+  border-radius: 1rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  font-family: 'Comic Sans MS', cursive;
+  text-align: center;
+}
+
+.question-section h2 {
+  margin-bottom: 1rem;
+}
+
+.options button {
+  display: block;
+  margin: 0.5rem auto;
+  padding: 0.7rem 1.2rem;
+  border: none;
+  background-color: #f48fb1;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+.options button:hover {
+  background-color: #ec407a;
+}
+
+.score-section {
+  font-size: 1.3rem;
+  color: #4caf50;
+  margin-top: 1rem;
+}
